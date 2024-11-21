@@ -1,0 +1,62 @@
+.social-icon {
+    display: flex;
+    gap: 1.2rem;
+    align-items: center;
+    text-decoration: none;
+}
+
+.social-icon p {
+    font-size: 1.5rem;
+}
+
+.social-icon i {
+    font-size: 2rem;
+}
+
+.container {
+    margin: 5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.sources {
+    border-top: 2px solid black;
+    padding-top: 1.5rem;
+}
+
+.title {
+    margin: 0;
+    font-size: 2.5rem;
+    font-weight: bolder;
+    border-bottom: 2px solid black;
+}
+
+.subtitle {
+    margin: 0;
+    text-decoration: underline;
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.2rem;
+    justify-items: center; 
+}
+
+.card {
+    border: 1px solid black;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    width: 300px;
+    max-height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.card p {
+    font-weight: bold;
+    margin: 0;
+}
